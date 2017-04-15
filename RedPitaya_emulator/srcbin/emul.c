@@ -76,7 +76,7 @@ int main (int agrc, char **argv)
 		data0[i][0]=(int16_t)(i+1);
 	}
 
-	load(data_RP.buffer_length, Nline, data0, "hand.txt");
+	load(data_RP.buffer_length, Nline, data0, "plate.txt");
 
 
 	int t=5000;
