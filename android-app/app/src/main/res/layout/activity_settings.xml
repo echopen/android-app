@@ -1,154 +1,221 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_settings"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <LinearLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_margin="30px"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         android:background="@color/white">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150px"
+            android:layout_height="wrap_content"
             android:gravity="center"
->
+            android:layout_marginBottom="24.5dp"
+            android:orientation="vertical">
 
             <TextView
+                android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:textColor="#354ccf"
+                android:letterSpacing="-0.02"
+                android:gravity="center_horizontal"
                 android:text="Paramètres"
-                android:textStyle="bold"
-                android:textColor="@color/dark_blue_text"/>
+                android:layout_marginTop="38dp"
+                android:layout_marginBottom="14dp"
+                />
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="2dp"
+                android:background="#4c3d4654"></LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp">
             <TextView
+                android:id="@+id/settings_subtitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#898989"
+                android:letterSpacing="-0.03"
+                android:text="Sexe"
+                />
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Personne"
-                android:layout_marginBottom="5px"
-                android:textColor="@color/dark_grey_text"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="3px"
-                android:background="@color/underline_blue">
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="155px"
-                android:layout_marginTop="30px"
                 android:orientation="horizontal"
                 android:gravity="center">
-
-
-                <Button
-                    android:layout_width="100px"
-                    android:layout_height="100px"
-                    android:topRightRadius="8dp"/>
-                <Button
-                    android:layout_width="100px"
-                    android:layout_height="100px"
-                    android:topRightRadius="8dp"/>
-                <Button
-                    android:layout_width="100px"
-                    android:layout_height="100px"
-                    android:topRightRadius="8dp"/>
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Morphologie"
-                android:layout_marginBottom="5px"
-                android:textColor="@color/dark_grey_text"/>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="3px"
-                android:background="@color/underline_blue">
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="155px"
-                android:orientation="vertical"
-                android:layout_marginTop="55px">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center">
-                    <TextView
+                    <ImageButton
+                        android:id="@+id/button_woman"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="55px"
-                        android:layout_marginRight="105px"
-                        android:text="S"
-                        android:textStyle="bold"
-                        android:textColor="@color/light_grey_text"/>
-                    <TextView
+                        android:src="@drawable/button_woman"
+                        android:background="@color/white"
+                        android:layout_marginRight="12.5dp"
+                        android:layout_marginLeft="12.5dp"/>
+                    <ImageButton
+                        android:id="@+id/button_man"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="80px"
-                        android:layout_marginRight="80px"
-                        android:text="M"
-                        android:textStyle="bold"
-                        android:textColor="@color/blue_dark"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="105px"
-                        android:layout_marginRight="55px"
-                        android:text="L"
-                        android:textStyle="bold"
-                        android:textColor="@color/light_grey_text"/>
+                        android:src="@drawable/button_man"
+                        android:background="@color/white"
+                        android:layout_marginRight="12.5dp"
+                        android:layout_marginLeft="12.5dp"/>
                 </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
 
 
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp">
 
-                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            <TextView
+                android:id="@+id/settings_subtitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#898989"
+                android:letterSpacing="-0.02"
+                android:text="Morphologie" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center">
-                    <RadioButton android:id="@+id/morpho_s"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:id="@+id/radio_input_text1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="70px"
-                        android:layout_marginRight="70px"
-                        android:onClick="onRadioButtonClicked"/>
-                    <RadioButton android:id="@+id/morpho_m"
+                        android:textSize="14sp"
+                        android:textColor="#898989"
+                        android:letterSpacing="-0.02"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="ECTO"
+                        />
+                    <TextView
+                        android:id="@+id/radio_input_text2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="70px"
-                        android:layout_marginRight="70px"
-                        android:onClick="onRadioButtonClicked"/>
-                    <RadioButton android:id="@+id/morpho_l"
+                        android:textSize="14sp"
+                        android:textColor="#4465d8"
+                        android:letterSpacing="-0.02"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="MESO"
+                        />
+                    <TextView
+                        android:id="@+id/radio_input_text3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="70px"
-                        android:layout_marginRight="70px"
-                        android:onClick="onRadioButtonClicked"/>
-                </RadioGroup>
+                        android:textSize="14sp"
+                        android:textColor="#898989"
+                        android:letterSpacing="-0.02"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="ENDO"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="30dp">
 
+                    <ImageButton
+                        android:id="@+id/button_ecto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_radio"
+                        android:layout_marginLeft="32.5dp"
+                        android:layout_marginRight="32.5dp"
+                        android:background="@color/white"/>
+                    <ImageButton
+                        android:id="@+id/button_meso"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_radio"
+                        android:layout_marginLeft="32.5dp"
+                        android:layout_marginRight="32.5dp"
+                        android:background="@color/white"/>
+                    <ImageButton
+                        android:id="@+id/button_endo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_radio"
+                        android:layout_marginLeft="32.5dp"
+                        android:layout_marginRight="32.5dp"
+                        android:background="@color/white"/>
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp">
+
+            <TextView
+                android:id="@+id/settings_subtitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#898989"
+                android:letterSpacing="-0.02"
+                android:text="Age" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="30sp"
+                android:textColor="#4465d8"
+                android:letterSpacing="-0.02"
+                android:text="0" />
             </LinearLayout>
 
         </LinearLayout>
@@ -158,27 +225,78 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <TextView
+                android:id="@+id/settings_subtitle4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#898989"
+                android:letterSpacing="-0.02"
+                android:text="Organe"
+                android:layout_marginBottom="15dp"
+                />
+            <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Organes"
-                android:layout_marginBottom="5px"
-                android:textColor="@color/dark_grey_text"/>
+                android:scrollbarThumbHorizontal="@color/transparent">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="3px"
-                android:background="@color/underline_blue">
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="155px"></LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:id="@+id/button_heart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_heart"
+                        android:layout_marginRight="12.5dp"
+                        android:layout_marginLeft="12.5dp"
+                        android:background="@color/white"/>
+                    <ImageButton
+                        android:id="@+id/button_stomac"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_stomac"
+                        android:layout_marginRight="12.5dp"
+                        android:layout_marginLeft="12.5dp"
+                        android:background="@color/white"/>
+                    <ImageButton
+                        android:id="@+id/button_lung"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_lung"
+                        android:layout_marginRight="12.5dp"
+                        android:layout_marginLeft="12.5dp"
+                        android:background="@color/white"/>
+                    <ImageButton
+                        android:id="@+id/button_foetus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_foetus"
+                        android:layout_marginRight="12.5dp"
+                        android:layout_marginLeft="12.5dp"
+                        android:background="@color/white"/>
+                    <ImageButton
+                        android:id="@+id/button_vessie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/button_vessie"
+                        android:background="@color/white"/>
+                </LinearLayout>
+            </HorizontalScrollView >
 
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30.5dp">
         <Button
             android:id="@+id/scan_start_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Validez"/>
+
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>
+
