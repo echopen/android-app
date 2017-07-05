@@ -5,7 +5,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import com.echopen.asso.echopen.SettingsActivity;
 /**
  * MainActivity class handles the main screen of the app.
  * Tools are called in the following order :
@@ -17,8 +20,7 @@ import android.os.Bundle;
  * These two methods should be refactored into one
  */
 
-public class MainActivity extends Activity {
-
+public class MainActivity extends Activity implements android.view.View.OnClickListener{
     /**
      * This method calls all the UI methods and then gives hand to  UDPToBitmapDisplayer class.
      * UDPToBitmapDisplayer listens to UDP data, processes them with the help of ScanConversion,
@@ -30,6 +32,10 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Button start_button = (Button) findViewById(R.id.button_start);
+        start_button.setOnClickListener(this);
+
     }
 
     @Override
@@ -51,5 +57,15 @@ public class MainActivity extends Activity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
+    public void onClick(View view) {
+        Log.d("toto","toto");
+        switch (view.getId()){
+            case R.id.button_start:
+                startActivity(new Intent( this, SettingsActivity.class));
+                break;
+        }
     }
 }

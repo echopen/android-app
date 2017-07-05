@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30px"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:gravity="center"
+>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paramètres"
+                android:textStyle="bold"
+                android:textColor="@color/dark_blue_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personne"
+                android:layout_marginBottom="5px"
+                android:textColor="@color/dark_grey_text"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="@color/underline_blue">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="155px"
+                android:layout_marginTop="30px"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <Button
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:topRightRadius="8dp"/>
+                <Button
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:topRightRadius="8dp"/>
+                <Button
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:topRightRadius="8dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Morphologie"
+                android:layout_marginBottom="5px"
+                android:textColor="@color/dark_grey_text"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="@color/underline_blue">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="155px"
+                android:orientation="vertical"
+                android:layout_marginTop="55px">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55px"
+                        android:layout_marginRight="105px"
+                        android:text="S"
+                        android:textStyle="bold"
+                        android:textColor="@color/light_grey_text"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80px"
+                        android:layout_marginRight="80px"
+                        android:text="M"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue_dark"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="105px"
+                        android:layout_marginRight="55px"
+                        android:text="L"
+                        android:textStyle="bold"
+                        android:textColor="@color/light_grey_text"/>
+                </LinearLayout>
+
+
+
+
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                    <RadioButton android:id="@+id/morpho_s"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70px"
+                        android:layout_marginRight="70px"
+                        android:onClick="onRadioButtonClicked"/>
+                    <RadioButton android:id="@+id/morpho_m"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70px"
+                        android:layout_marginRight="70px"
+                        android:onClick="onRadioButtonClicked"/>
+                    <RadioButton android:id="@+id/morpho_l"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70px"
+                        android:layout_marginRight="70px"
+                        android:onClick="onRadioButtonClicked"/>
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Organes"
+                android:layout_marginBottom="5px"
+                android:textColor="@color/dark_grey_text"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3px"
+                android:background="@color/underline_blue">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="155px"></LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
