@@ -6,7 +6,32 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="24.5dp"
+        android:orientation="vertical">
 
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textColor="#354ccf"
+            android:letterSpacing="-0.02"
+            android:gravity="center_horizontal"
+            android:text="Paramètres"
+            android:layout_marginTop="38dp"
+            android:layout_marginBottom="14dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#4c3d4654"></LinearLayout>
+
+    </LinearLayout>
     <LinearLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
@@ -16,32 +41,7 @@
         android:layout_marginRight="25dp"
         android:background="@color/white">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginBottom="24.5dp"
-            android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="26sp"
-                android:textColor="#354ccf"
-                android:letterSpacing="-0.02"
-                android:gravity="center_horizontal"
-                android:text="Paramètres"
-                android:layout_marginTop="38dp"
-                android:layout_marginBottom="14dp"
-                />
-
-            <LinearLayout
-                android:layout_width="360dp"
-                android:layout_height="2dp"
-                android:background="#4c3d4654"></LinearLayout>
-
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
