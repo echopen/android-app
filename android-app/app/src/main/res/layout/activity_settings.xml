@@ -289,11 +289,12 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:layout_marginTop="30.5dp">
-        <Button
-            android:id="@+id/scan_start_button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Validez"/>
+            <ImageButton
+                android:id="@+id/scan_start_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/button_validate"
+                android:background="@color/white"/>
 
         </LinearLayout>
     </LinearLayout>

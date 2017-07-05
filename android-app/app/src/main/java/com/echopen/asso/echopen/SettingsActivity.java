@@ -28,7 +28,7 @@ public class SettingsActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        Button start_button = (Button) findViewById(R.id.scan_start_button);
+        ImageButton start_button = (ImageButton) findViewById(R.id.scan_start_button);
 
         ImageButton woman_button = (ImageButton) findViewById(R.id.button_woman);
         ImageButton man_button = (ImageButton) findViewById(R.id.button_man);
@@ -43,7 +43,7 @@ public class SettingsActivity extends Activity implements View.OnClickListener {
         ImageButton meso_button = (ImageButton) findViewById(R.id.button_meso);
         ImageButton endo_button = (ImageButton) findViewById(R.id.button_endo);
 
-
+        // ********* add buttons to ArrayList to set state ********* //
         sexe_buttons.add(woman_button);
         sexe_buttons.add(man_button);
 
@@ -58,12 +58,12 @@ public class SettingsActivity extends Activity implements View.OnClickListener {
         morphologie_buttons.add(endo_button);
 
 
+        // ********* set listeners ********* //
         start_button.setOnClickListener(this);
 
         woman_button.setOnClickListener(this);
         man_button.setOnClickListener(this);
 
-        // *********
         heart_button.setOnClickListener(this);
         stomac_button.setOnClickListener(this);
         lung_button.setOnClickListener(this);
@@ -94,6 +94,7 @@ public class SettingsActivity extends Activity implements View.OnClickListener {
         setFont(settings_radio3,"Avernir-Book.ttf");
     }
 
+    // ********* click switch case ********* //
     @Override
     public void onClick(View view) {
         switch (view.getId()){
