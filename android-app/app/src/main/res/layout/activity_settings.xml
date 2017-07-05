@@ -174,5 +174,11 @@
                 android:layout_height="155px"></LinearLayout>
 
         </LinearLayout>
+        <Button
+            android:id="@+id/scan_start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Validez"/>
     </LinearLayout>
+
 </LinearLayout>
