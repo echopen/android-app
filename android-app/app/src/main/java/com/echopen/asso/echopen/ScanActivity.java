@@ -28,6 +28,8 @@ import static com.echopen.asso.echopen.utils.Constants.Http.REDPITAYA_PORT;
 public class ScanActivity extends Activity implements EchographyImageVisualisationContract.View, View.OnClickListener {
 
     Bitmap current_image;
+    Random r = new Random();
+    int i1 = r.nextInt(80 - 65) + 65;
     /**
      * This method calls all the UI methods and then gives hand to  UDPToBitmapDisplayer class.
      * UDPToBitmapDisplayer listens to UDP data, processes them with the help of ScanConversion,
@@ -103,8 +105,7 @@ public class ScanActivity extends Activity implements EchographyImageVisualisati
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.sreenshot_button:
-                Random r = new Random();
-                int i1 = r.nextInt(80 - 65) + 65;
+
                 FileOutputStream out = null;
                 try {
                     out = openFileOutput(i1 +"-"+System.currentTimeMillis() + ".jpeg", MODE_PRIVATE);
