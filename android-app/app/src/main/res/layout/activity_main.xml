@@ -2,7 +2,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,10 +59,11 @@
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:textColor="#4465d8"
-            android:text="Médrick"/>
+            android:text="Médrick"
+            android:background="@color/transparent"/>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="1dp"
+            android:layout_height="2px"
             android:background="#4465d8"></LinearLayout>
 
         <TextView
@@ -79,7 +81,14 @@
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:textColor="#4465d8"
-            android:text="Médrick"/>
+            android:text="Médrick"
+            android:background="@color/transparent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#4465d8"
+            android:layout_marginBottom="15dp"></LinearLayout>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -96,11 +105,14 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <Button
+            <ImageButton
                 android:id="@+id/button_start"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Connexion"/>
+                android:text="Connexion"
+                android:src="@drawable/cta_connexion"
+                android:background="@color/white"
+                android:layout_marginBottom="15dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
