@@ -5,10 +5,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+
 
 import com.echopen.asso.echopen.SettingsActivity;
 /**
@@ -64,6 +64,7 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
     @Override
     public void onClick(View view) {
         switch (view.getId()){
+
             case R.id.button_start:
                 startActivity(new Intent( this, DashboardActivity.class));
                 break;
