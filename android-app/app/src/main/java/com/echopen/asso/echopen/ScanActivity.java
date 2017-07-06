@@ -1,13 +1,14 @@
 package com.echopen.asso.echopen;
 
 import android.annotation.TargetApi;
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Build;
 import android.os.Bundle;
-import android.app.Activity;
 import android.util.Log;
-import android.widget.Button;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import com.echopen.asso.echopen.echography_image_streaming.EchographyImageStreamingService;
@@ -18,15 +19,15 @@ import com.echopen.asso.echopen.echography_image_visualisation.EchographyImageVi
 import com.echopen.asso.echopen.ui.RenderingContextController;
 import com.echopen.asso.echopen.utils.Constants;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.util.Random;
+
 import static com.echopen.asso.echopen.utils.Constants.Http.REDPITAYA_PORT;
 
-public class ScanActivity extends Activity  implements EchographyImageVisualisationContract.View {
+public class ScanActivity extends Activity implements EchographyImageVisualisationContract.View, View.OnClickListener {
 
-    ImageView echo_image;
-
-
-    private static final String TAG = "MyActivity";
-
+    Bitmap current_image;
     /**
      * This method calls all the UI methods and then gives hand to  UDPToBitmapDisplayer class.
      * UDPToBitmapDisplayer listens to UDP data, processes them with the help of ScanConversion,
@@ -36,20 +37,16 @@ public class ScanActivity extends Activity  implements EchographyImageVisualisat
     @TargetApi(Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scan);
-
+        super.onCreate(savedInstanceState);
+        ImageButton screenShot_Button = (ImageButton) findViewById(R.id.sreenshot_button) ;
+        screenShot_Button.setOnClickListener(this);
         RenderingContextController rdController = new RenderingContextController();
-
-
-        // EchOpenApplication echOpenApplication = (EchOpenApplication) getApplication();
-
         EchographyImageStreamingService serviceEcho =  new EchographyImageStreamingService(rdController);
-
         EchographyImageVisualisationPresenter presenter = new EchographyImageVisualisationPresenter(serviceEcho, this);
-
         EchographyImageStreamingMode mode = new EchographyImageStreamingTCPMode(Constants.Http.REDPITAYA_IP, REDPITAYA_PORT);
         serviceEcho.connect(mode, this);
+
 
         presenter.listenEchographyImageStreaming();
 
@@ -59,7 +56,6 @@ public class ScanActivity extends Activity  implements EchographyImageVisualisat
     protected void onResume(){
         super.onResume();
     }
-
 
     /**
      * Following the doc https://developer.android.com/intl/ko/training/basics/intents/result.html,
@@ -78,15 +74,14 @@ public class ScanActivity extends Activity  implements EchographyImageVisualisat
 
     @Override
     public void refreshImage(final Bitmap iBitmap) {
-
-        Log.d("IMGJIBEEEEE", iBitmap+"");
-
         try{
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
+                    Log.d("hey", "yo");
                     ImageView echoImage = (ImageView) findViewById(R.id.echo_view);
                     echoImage.setImageBitmap(iBitmap);
+                    current_image = iBitmap;
                 }
 
             });
@@ -96,15 +91,33 @@ public class ScanActivity extends Activity  implements EchographyImageVisualisat
             System.out.print("Eurreur");
             e.printStackTrace();
         }
-
-
     }
 
     @Override
     public void setPresenter(EchographyImageVisualisationContract.Presenter presenter) {
         presenter.start();
+
     }
 
-
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.sreenshot_button:
+                Random r = new Random();
+                int i1 = r.nextInt(80 - 65) + 65;
+                FileOutputStream out = null;
+                try {
+                    out = openFileOutput(i1 +"-"+System.currentTimeMillis() + ".jpeg", MODE_PRIVATE);
+                    current_image.compress(Bitmap.CompressFormat.JPEG, 100, out);
+                    out.close();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Log.d("Eurrrrrrr", " !!!!!!!!!");
+                }
+                break;
+        }
+    }
 
 }
+
+

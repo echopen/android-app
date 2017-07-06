@@ -5,9 +5,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
 import com.echopen.asso.echopen.SettingsActivity;
 /**
  * MainActivity class handles the main screen of the app.
@@ -34,7 +34,7 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
         setContentView(R.layout.activity_main);
 
         Button start_button = (Button) findViewById(R.id.button_start);
-        start_button.setOnClickListener(this);
+         start_button.setOnClickListener(this);
 
     }
 
@@ -61,8 +61,8 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
 
     @Override
     public void onClick(View view) {
-        Log.d("toto","toto");
         switch (view.getId()){
+
             case R.id.button_start:
                 startActivity(new Intent( this, SettingsActivity.class));
                 break;
