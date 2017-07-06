@@ -9,10 +9,13 @@ import android.app.Activity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.Dictionary;
+import java.util.HashMap;
 
 public class SettingsActivity extends Activity implements View.OnClickListener {
     String SEXE;
@@ -89,9 +92,9 @@ public class SettingsActivity extends Activity implements View.OnClickListener {
         setFont(settings_subtitle2,"Moderat-Bold.ttf");
         setFont(settings_subtitle3,"Moderat-Bold.ttf");
         setFont(settings_subtitle4,"Moderat-Bold.ttf");
-        setFont(settings_radio1,"Avernir-Book.ttf");
-        setFont(settings_radio2,"Avernir-Book.ttf");
-        setFont(settings_radio3,"Avernir-Book.ttf");
+        setFont(settings_radio1,"Avenir-Book.ttf");
+        setFont(settings_radio2,"Avenir-Book.ttf");
+        setFont(settings_radio3,"Avenir-Book.ttf");
     }
 
     // ********* click switch case ********* //
@@ -99,7 +102,17 @@ public class SettingsActivity extends Activity implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.scan_start_button:
-                startActivity(new Intent( this, ScanActivity.class));
+
+                EditText input_age =(EditText)findViewById(R.id.input_age);
+                AGE = input_age.getText().toString();
+                HashMap data = new HashMap<String, String>();
+                data.put("SEXE", SEXE);
+                data.put("MORPHOLOGIE", MORPHOLOGIE);
+                data.put("AGE", AGE);
+                data.put("ORGANE", ORGANE);
+                Intent intent = new Intent( this, ScanActivity.class);
+                intent.putExtra("info", data);
+                startActivity(intent);
                 break;
             case R.id.button_woman:
                 SEXE = "woman";
