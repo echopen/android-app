@@ -63,10 +63,9 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
 
     @Override
     public void onClick(View view) {
-        Log.d("toto","toto");
         switch (view.getId()){
             case R.id.button_start:
-                startActivity(new Intent( this, SettingsActivity.class));
+                startActivity(new Intent( this, DashboardActivity.class));
                 break;
         }
     }
