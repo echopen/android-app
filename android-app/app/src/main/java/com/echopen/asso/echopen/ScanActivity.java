@@ -31,7 +31,7 @@ import java.util.UUID;
 import static com.echopen.asso.echopen.utils.Constants.Http.REDPITAYA_PORT;
 
 public class ScanActivity extends Activity implements EchographyImageVisualisationContract.View, View.OnClickListener {
-
+    HashMap DATA;
     Bitmap current_image;
     String i1;
     /**
@@ -48,19 +48,48 @@ public class ScanActivity extends Activity implements EchographyImageVisualisati
 
 
         ImageButton screenShot_Button = (ImageButton) findViewById(R.id.sreenshot_button) ;
+        ImageButton parameters_Button = (ImageButton) findViewById(R.id.regalge_button);
+        ImageButton galery_Button = (ImageButton) findViewById(R.id.galerie_button);
         screenShot_Button.setOnClickListener(this);
+        parameters_Button.setOnClickListener(this);
+        galery_Button.setOnClickListener(this);
         i1 = UUID.randomUUID().toString();
 
-        ImageView type_image = (ImageView) findViewById(R.id.type_image);
-        type_image.setImageResource(R.drawable.picto_estomac_off);
 
         RenderingContextController rdController = new RenderingContextController();
         EchographyImageStreamingService serviceEcho =  new EchographyImageStreamingService(rdController);
         EchographyImageVisualisationPresenter presenter = new EchographyImageVisualisationPresenter(serviceEcho, this);
         EchographyImageStreamingMode mode = new EchographyImageStreamingTCPMode(Constants.Http.REDPITAYA_IP, REDPITAYA_PORT);
         serviceEcho.connect(mode, this);
+
+        // GET DATA
         HashMap info = (HashMap) getIntent().getSerializableExtra("info");
-        Log.d("IIIICCCCCCCCCCCIIIIIII", ""+info.size());
+        DATA = info;
+        Object imageOrgane = info.get("ORGANE");
+
+        // CHANGE IMAGE
+        ImageView typeOrgane = (ImageView) findViewById(R.id.type_organe);
+
+        switch (imageOrgane.toString()) {
+        case "foetus" :
+            typeOrgane.setImageResource(R.drawable.picto_foetus_off);
+            break;
+        case "stomac" :
+            typeOrgane.setImageResource(R.drawable.picto_estomac_off);
+            break;
+        case "lung" :
+            typeOrgane.setImageResource(R.drawable.picto_poumon_off);
+            break;
+        case "heart" :
+            typeOrgane.setImageResource(R.drawable.picto_coeur_off);
+            break;
+        case "vessie" :
+            typeOrgane.setImageResource(R.drawable.picto_vessie_off);
+            break;
+        default:
+            typeOrgane.setImageResource(R.drawable.picto_automatique_white);
+            break;
+        }
         presenter.listenEchographyImageStreaming();
 
     }
@@ -91,7 +120,6 @@ public class ScanActivity extends Activity implements EchographyImageVisualisati
             runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                    Log.d("hey", "yo");
                     ImageView echoImage = (ImageView) findViewById(R.id.echo_view);
                     echoImage.setImageBitmap(iBitmap);
                     current_image = iBitmap;
@@ -126,6 +154,16 @@ public class ScanActivity extends Activity implements EchographyImageVisualisati
                     e.printStackTrace();
                     Log.d("Eurrrrrrr", " !!!!!!!!!");
                 }
+                break;
+            case R.id.regalge_button:
+                Intent intentSettings = new Intent( this, SettingsActivity.class);
+                intentSettings.putExtra("info", DATA);
+                startActivity(intentSettings);
+                break;
+            case R.id.galerie_button:
+                Intent intentFinish = new Intent( this, FinishActivity.class);
+                intentFinish.putExtra("id", i1);
+                startActivity(intentFinish);
                 break;
         }
     }

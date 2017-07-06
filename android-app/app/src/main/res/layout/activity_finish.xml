@@ -56,13 +56,14 @@
             android:id="@+id/id_patient"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="64sp"
+            android:textSize="20sp"
             android:textColor="#4465d8"
             android:letterSpacing="-0.01"
             android:gravity="center_horizontal"
-            android:text="465"
+            android:text=""
             />
         <ImageButton
+            android:id="@+id/button_dashboard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/white"

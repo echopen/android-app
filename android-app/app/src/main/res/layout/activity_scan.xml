@@ -14,32 +14,44 @@
         android:layout_weight="1.07">
 
         <ImageView
+            android:id="@+id/type_organe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/picto_automatique_white" />
+
+        <ImageView
             android:id="@+id/echo_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
             android:layout_weight="1"
             android:src="@android:drawable/sym_def_app_icon"
-            tools:ignore="ContentDescription" />
+            tools:ignore="ContentDescription"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
 
         <ImageView
             android:id="@+id/baterrie"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="291dp"
+            android:layout_marginStart="104dp"
+            android:layout_marginTop="10dp"
             android:adjustViewBounds="false"
-            android:src="@drawable/picto_batterie_white" />
+            android:src="@drawable/picto_batterie_white"
+            android:layout_alignTop="@+id/type_organe"
+            android:layout_toEndOf="@+id/type_organe" />
 
         <ImageView
             android:id="@+id/regle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="36dp"
             android:src="@drawable/regle_screen"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_marginTop="21dp"
+            android:layout_below="@+id/type_organe"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp" />
 
         <ImageView
             android:id="@+id/sonde"
@@ -54,7 +66,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="71dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"

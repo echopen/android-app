@@ -25,6 +25,16 @@ public class SettingsActivity extends Activity implements View.OnClickListener {
     ArrayList<ImageButton> sexe_buttons = new ArrayList<>();
     ArrayList<ImageButton> morphologie_buttons = new ArrayList<>();
     ArrayList<ImageButton> organe_buttons = new ArrayList<>();
+    ImageButton woman_button;
+    ImageButton man_button;
+    ImageButton heart_button;
+    ImageButton stomac_button;
+    ImageButton lung_button;
+    ImageButton foetus_button;
+    ImageButton vessie_button;
+    ImageButton ecto_button;
+    ImageButton meso_button;
+    ImageButton endo_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,18 +43,27 @@ public class SettingsActivity extends Activity implements View.OnClickListener {
 
         ImageButton start_button = (ImageButton) findViewById(R.id.scan_start_button);
 
-        ImageButton woman_button = (ImageButton) findViewById(R.id.button_woman);
-        ImageButton man_button = (ImageButton) findViewById(R.id.button_man);
+        woman_button = (ImageButton) findViewById(R.id.button_woman);
+        man_button = (ImageButton) findViewById(R.id.button_man);
 
-        ImageButton heart_button = (ImageButton) findViewById(R.id.button_heart);
-        ImageButton stomac_button = (ImageButton) findViewById(R.id.button_stomac);
-        ImageButton lung_button = (ImageButton) findViewById(R.id.button_lung);
-        ImageButton foetus_button = (ImageButton) findViewById(R.id.button_foetus);
-        ImageButton vessie_button = (ImageButton) findViewById(R.id.button_vessie);
+        heart_button = (ImageButton) findViewById(R.id.button_heart);
+        stomac_button = (ImageButton) findViewById(R.id.button_stomac);
+        lung_button = (ImageButton) findViewById(R.id.button_lung);
+        foetus_button = (ImageButton) findViewById(R.id.button_foetus);
+        vessie_button = (ImageButton) findViewById(R.id.button_vessie);
 
-        ImageButton ecto_button = (ImageButton) findViewById(R.id.button_ecto);
-        ImageButton meso_button = (ImageButton) findViewById(R.id.button_meso);
-        ImageButton endo_button = (ImageButton) findViewById(R.id.button_endo);
+        ecto_button = (ImageButton) findViewById(R.id.button_ecto);
+        meso_button = (ImageButton) findViewById(R.id.button_meso);
+        endo_button = (ImageButton) findViewById(R.id.button_endo);
+
+        // ********* set previous informations about patient ********* //
+        try{
+            HashMap info = (HashMap) getIntent().getSerializableExtra("info");
+            setPreviousInformations(info);
+        }
+        catch (Exception e){
+
+        }
 
         // ********* add buttons to ArrayList to set state ********* //
         sexe_buttons.add(woman_button);
@@ -169,6 +188,67 @@ public class SettingsActivity extends Activity implements View.OnClickListener {
             button.setSelected(false);
         }
     }
+
+    public void setPreviousInformations(HashMap data){
+
+        String sexe = data.get("SEXE").toString();
+        String organe = data.get("ORGANE").toString();
+        String morpho = data.get("MORPHOLOGIE").toString();
+        String age = data.get("AGE").toString();
+
+        switch (sexe) {
+            case "man":
+                man_button.setSelected(true);
+                SEXE = "man";
+                break;
+            case "woman":
+                woman_button.setSelected(true);
+                SEXE = "woman";
+                break;
+        }
+
+        switch (organe) {
+            case "heart":
+                heart_button.setSelected(true);
+                ORGANE = "heart";
+                break;
+            case "stomac":
+                stomac_button.setSelected(true);
+                ORGANE = "heart";
+                break;
+            case "lung":
+                lung_button.setSelected(true);
+                ORGANE = "lung";
+                break;
+            case "foetus":
+                foetus_button.setSelected(true);
+                ORGANE = "foetus";
+                break;
+            case "vessie":
+                vessie_button.setSelected(true);
+                ORGANE = "vessie";
+                break;
+        }
+
+        switch (morpho) {
+            case "ecto":
+                ecto_button.setSelected(true);
+                MORPHOLOGIE = "ecto";
+                break;
+            case "meso":
+                meso_button.setSelected(true);
+                MORPHOLOGIE = "meso";
+                break;
+            case "endo":
+                endo_button.setSelected(true);
+                MORPHOLOGIE = "endo";
+                break;
+        }
+
+        EditText input_age =(EditText)findViewById(R.id.input_age);
+        input_age.setText(age);
+    }
+
 
     public void setFont(TextView textView, String fontName) {
         if(fontName != null){
