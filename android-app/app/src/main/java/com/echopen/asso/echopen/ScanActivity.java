@@ -21,6 +21,8 @@ import com.echopen.asso.echopen.utils.Constants;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.util.ArrayList;
+import java.util.Objects;
 import java.util.Random;
 import java.util.UUID;
 
@@ -41,9 +43,15 @@ public class ScanActivity extends Activity implements EchographyImageVisualisati
     protected void onCreate(Bundle savedInstanceState) {
         setContentView(R.layout.activity_scan);
         super.onCreate(savedInstanceState);
+
+
         ImageButton screenShot_Button = (ImageButton) findViewById(R.id.sreenshot_button) ;
         screenShot_Button.setOnClickListener(this);
         i1 = UUID.randomUUID().toString();
+
+        ImageView type_image = (ImageView) findViewById(R.id.type_image);
+        type_image.setImageResource(R.drawable.picto_estomac_off);
+
         RenderingContextController rdController = new RenderingContextController();
         EchographyImageStreamingService serviceEcho =  new EchographyImageStreamingService(rdController);
         EchographyImageVisualisationPresenter presenter = new EchographyImageVisualisationPresenter(serviceEcho, this);
