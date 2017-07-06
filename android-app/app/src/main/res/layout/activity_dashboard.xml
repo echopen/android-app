@@ -59,6 +59,7 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/welcome_text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
@@ -68,6 +69,7 @@
                 android:layout_marginBottom="5dp"
                 />
             <TextView
+                android:id="@+id/welcome_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
@@ -83,6 +85,7 @@
 
 
             <TextView
+                android:id="@+id/welcome_text_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
