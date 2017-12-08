@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d77c57c8-2068-4604-a0e5-f5a1ff6edf32" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/image/hand_raw.png" afterPath="$PROJECT_DIR$/probe_emulator/image/hand_raw.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/image/hand_scan_conv.png" afterPath="$PROJECT_DIR$/probe_emulator/image/hand_scan_conv.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/image/plate_raw.png" afterPath="$PROJECT_DIR$/probe_emulator/image/plate_raw.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/image/plate_scan_conv.png" afterPath="$PROJECT_DIR$/probe_emulator/image/plate_scan_conv.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/probe_emulator" afterPath="$PROJECT_DIR$/probe_emulator/probe_emulator" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/android-app/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-app/app/src/main/java/com/echopen/asso/echopen/utils/Constants.java" afterPath="$PROJECT_DIR$/android-app/app/src/main/java/com/echopen/asso/echopen/utils/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-app/phantom/app_java_src/src/com/echopen/asso/echopen/utils/Constants.java" afterPath="$PROJECT_DIR$/android-app/phantom/app_java_src/src/com/echopen/asso/echopen/utils/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int0.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int0.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int1.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int1.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int10.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int10.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int100.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int100.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int11.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int11.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int12.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int12.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int13.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int13.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int14.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int14.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int15.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int15.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int16.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int16.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int17.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int17.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int18.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int18.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int19.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int19.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int2.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int20.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int20.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int21.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int21.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int22.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int22.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int23.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int23.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int24.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int24.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int25.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int25.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int26.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int26.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int27.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int27.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int28.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int28.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int29.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int29.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int3.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int3.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int30.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int30.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int31.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int31.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int32.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int32.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int33.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int33.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int34.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int34.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int35.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int35.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int36.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int36.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int37.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int37.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int38.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int38.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int39.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int39.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int4.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int4.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int40.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int40.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int41.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int41.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int42.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int42.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int43.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int43.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int44.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int44.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int45.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int45.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int46.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int46.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int47.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int47.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int48.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int48.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int49.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int49.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int5.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int5.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int50.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int50.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int51.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int51.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int52.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int52.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int53.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int53.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int54.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int54.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int55.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int55.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int56.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int56.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int57.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int57.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int58.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int58.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int59.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int59.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int6.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int6.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int60.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int60.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int61.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int61.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int62.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int62.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int63.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int63.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int64.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int64.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int65.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int65.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int66.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int66.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int67.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int67.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int68.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int68.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int69.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int69.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int7.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int7.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int70.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int70.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int71.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int71.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int72.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int72.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int73.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int73.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int74.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int74.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int75.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int75.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int76.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int76.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int77.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int77.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int78.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int78.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int79.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int79.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int8.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int8.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int80.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int80.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int81.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int81.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int82.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int82.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int83.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int83.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int84.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int84.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int85.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int85.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int86.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int86.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int87.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int87.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int88.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int88.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int89.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int89.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int9.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int9.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int90.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int90.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int91.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int91.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int92.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int92.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int93.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int93.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int94.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int94.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int95.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int95.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int96.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int96.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int97.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int97.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int98.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int98.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/int99.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/int99.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/film/settings.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/film/settings.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/hand/hand.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/hand/hand.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/hand/settings.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/hand/settings.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/plate/plate.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/plate/plate.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/data/plate/settings.txt" afterPath="$PROJECT_DIR$/probe_emulator/data/plate/settings.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/readme.md" afterPath="$PROJECT_DIR$/probe_emulator/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/run.sh" afterPath="$PROJECT_DIR$/probe_emulator/run.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/srcbin/TCP_API.h" afterPath="$PROJECT_DIR$/probe_emulator/srcbin/TCP_API.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/probe_emulator/srcbin/probe_emulator.c" afterPath="$PROJECT_DIR$/probe_emulator/srcbin/probe_emulator.c" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/android-app/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="probe_emulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="probe_emulator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phantom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRJ-medtec_androidapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d77c57c8-2068-4604-a0e5-f5a1ff6edf32" name="Default" comment="" />
+      <created>1511352818706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511352818706</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="810" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/android-app/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-app/app/src/main/res/layout/splash.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-app/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+  </component>
+</project>
