@@ -18,6 +18,9 @@ wiki](http://echopen.org)
 ## Licence
 All work in this repository is under the licence bsd available [here](https://github.com/echopen/android-app/blob/master/LICENSE.md)
 
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fechopen%2FPRJ-medtec_androidapp.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fechopen%2FPRJ-medtec_androidapp?ref=badge_large)
+
 ## How to contribute
 
 First you have to follow [Installation Guide](##Installation-(for-Developers)) to build the project.
@@ -149,5 +152,6 @@ You have also access to a detailed documentation in the *projectRootDirectory/do
   To drive your code, here's the MOCKUP that we have set with medical doctors, engineers and designers.  
 
   ![alt tag](http://wiki.echopen.org/images/a/ab/Echopen_MockUp_1.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fechopen%2FPRJ-medtec_androidapp.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fechopen%2FPRJ-medtec_androidapp?ref=badge_shield)
   ![alt tag](http://wiki.echopen.org/images/0/07/Echopen_MockUp_1.2.png)
   ![alt tag](http://wiki.echopen.org/images/e/e2/Echopen_MockUp_1_2.png)
